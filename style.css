@@ -1,0 +1,16 @@
+.header {
+    color: white;
+    background-color: #1F2937;
+    height: 120px;
+}
+
+.headercontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+
