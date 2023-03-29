@@ -1,7 +1,7 @@
 .header {
     color: white;
     background-color: #1F2937;
-    height: 120px;
+    height: 200px;
 }
 
 .headercontainer {
@@ -9,8 +9,10 @@
     justify-content: space-around;
 }
 
-li {
+.navlinks ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
     list-style-type: none;
 }
-
-
