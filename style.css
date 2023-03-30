@@ -13,25 +13,26 @@
     height: 70px;
     max-width: 1024px;
     margin: 0 auto;
+    padding-bottom: 20px;
 
 }
 .headercontainer2 {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 .headercontainer2 .hcontent1{
     flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: 400px;
+    flex-shrink: 0;
+    flex-basis: 430px;
     height: 240px;
 }
 
 .headercontainer2 .hcontent2{
     flex-grow: 0;
     flex-shrink: 1;
-    flex-basis: 400px;
+    flex-basis: 430px;
     height: 240px;
     background-color: #6b717a;
 }
@@ -46,6 +47,8 @@
 .hcontent1 p {
     font-size: 18px;
     color: #E5E7Eb;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .hcontent2 {
@@ -81,4 +84,21 @@
 .herotext {
     font-size: 48px;
     margin: 0;
+}
+
+.section1 {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    border: solid red;
+}
+
+.section1 h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.section1container {
+    display: flex;
 }
