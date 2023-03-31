@@ -88,7 +88,7 @@
 
 .section1 {
     height: 400px;
-    border: 1px solid red;
+
     font-size: 18px;
     color: #1F2937;
 }
@@ -137,3 +137,9 @@
     text-align: center;
 }
 
+.section2 {
+    height: 400px;
+    font-size: 18px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
