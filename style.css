@@ -87,18 +87,53 @@
 }
 
 .section1 {
-    display: flex;
     height: 400px;
+    border: 1px solid red;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.section1headline {
+    height: 100px;
+    display: flex;
     justify-content: center;
-    border: solid red;
 }
 
 .section1 h3 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin: 30px;
 }
 
-.section1container {
+.section1content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 50px;
+}
+
+.section1content .section1item1 {
+    height: 250px;
+    flex-basis: 160px;
+    flex-direction: column;
     display: flex;
 }
+
+.section1content .section1item1 .square {
+    border: solid #3882F6;
+    flex-basis: 160px;
+    width: 160px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-radius: 25px;
+    align-self: center;
+}
+
+.section1content .section1item1 .text p {
+    margin: 0px;
+    padding-top: 10px;
+    text-align: center;
+}
+
